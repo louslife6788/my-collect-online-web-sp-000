@@ -5,4 +5,5 @@ def my_collect(array)
   new_array = Array.new
   while i < 0
     new_array << yield[i]
+    i += 1
     
